@@ -33,7 +33,7 @@ int main (void)
       }
       else
       {
-        printf("Invalid Calculation! \"%d e %d\"\n", x, y);
+        printf("Invalid Calculation! \"%d c %d\"\n", x, y);
         break;
       }
     }
