@@ -29,7 +29,7 @@ int main (void)
       }
       else if (z == '%')
       {
-        printf("> %d % %d = %d\n", x, y, x % y);
+        printf("> %d %% %d = %d\n", x, y, x % y);
       }
       else
       {
