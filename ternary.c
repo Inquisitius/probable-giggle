@@ -1,7 +1,7 @@
 #include "ternary.h"
 int ternary (int cond, int true_value, int false_value)
 {
-  if (cond > 0)
+  if (cond)
   {
     return true_value;
   }
