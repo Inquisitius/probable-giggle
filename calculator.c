@@ -1,4 +1,40 @@
 int main (void)
 {
-  return 0;
+  int x;
+  int y;
+  char z;
+  while (1)
+    {
+      printf("Enter your calculation: \n");
+      scanf("%d %c %d", &x, &z, &y);
+      if (z == '+')
+      {
+        printf("> %d + %d = %d\n", x, y, x + y);
+      }
+      else if (z == '-')
+      {
+        printf("> %d - %d = %d\n", x, y, x - y);
+      }
+      else if (z == '/')
+      {
+        printf("> %d / %d = %d\n", x, y, x / y);
+      }
+      else if (z == '*')
+      {
+        printf("> %d * %d = %d\n", x, y, x * y); 
+      }
+      else if (z == '&')
+      {
+        printf("> %d & %d = %d\n", x, y, x & y);
+      }
+      else if (z == '%')
+      {
+        printf("> %d % %d = %d\n", x, y, x % y);
+      }
+      else
+      {
+        printf("Invalid Calculation! \"%d c %d\"\n", x, y);
+        break;
+      }
+    }
 }
